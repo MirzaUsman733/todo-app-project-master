@@ -1,0 +1,58 @@
+.logoutBtn{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+}
+.menu-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.modalOpenBtn{
+    background-color: rgba(0, 0, 0, 0.171);
+    
+}
+.stick{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+.stickyDescription{
+    flex: 1 0 auto;
+}
+.dropdown {
+    position: relative;
+  }
+  
+  .dropdown-toggle {
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+  }
+  
+  .dropdown-content Link {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .tsk{
+    display: flex;
+
+  }
+  .toggleDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
